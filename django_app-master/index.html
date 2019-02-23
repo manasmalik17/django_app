@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Questions</title>
+</head>
+<body>
+  <form method="POST" action="/home_three">
+    {% csrf_token %}
+    Key: <input type="text" name="key"></input><br>
+    <input type="submit">
+  </form>
+</body>
+</html>

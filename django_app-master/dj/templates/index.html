@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Questions</title>
+</head>
+<body>
+  <form method="POST" action=".">
+    {% csrf_token %}
+    Key: <input type="text" name="name"></input><br>
+    <input type="submit">
+  </form>
+  {{ tag.id }}
+  {{ tag.questions}}
+</body>
+</html>
